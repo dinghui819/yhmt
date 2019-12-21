@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="count-down font-14 text-gray display">
+					<span class="padding-5-lr">本场还剩</span>
+					
+					
+					<span class="time">0</span>
+					<span class="time">1</span>
+					<span class="">:</span>
+					<span class="time">2</span>
+					<span class="time">3</span>
+					<span class="">:</span>
+					<span class="time">4</span>
+					<span class="time">5</span>
+				</div>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	
+	let time = document.querySelectorAll(".time")
+	
+	
+	setInterval(function(){
+	var  ftime='2019-11-25 23:10:00';
+	var targetTime=new   Date(ftime);
+	
+	var  now=new Date();
+	
+	var nt=now.getTime();
+	var ft=targetTime.getTime();
+	
+	
+	var num=ft-nt;
+	
+	
+	var hours= Math.floor((num/(1*60*60*1000)))
+	console.log(hours);
+	
+	var minutes=Math.floor((num - hours/60 * 60 * 1000)/(60*1000));
+	console.log(minutes);
+	
+	var scend=Math.floor((num-hours * 60 * 60 * 1000 - minutes * 60 * 1000)/1000);
+	console.log(scend);
+	},1000)
+	
+	
+	
+</script>

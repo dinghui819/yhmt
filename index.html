@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/module.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="font-icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/aside.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<!--顶部begin-->
+			<section class="bg-gray dh-top">
+				<div class="line-36 clearfix content">
+					<div class="dh-top-left fl font-14">
+						<a>设为首页</a>
+						<i class="space"></i>
+						<a>收藏本站</a>
+					</div>
+					<div class="dh-top-right fr font-14">
+						<a>路人甲</a>
+						<i class="space"></i>
+						<a>退出登录</a>
+						<i class="space"></i>
+						<a>我的订单</a>
+					</div>
+				</div>
+			</section>
+			<!--顶部end-->
+			<!--logo和搜索begin-->
+			<section class="dh-nav content padding-30-bt clearfix">
+				<a class="dh-nav-logo fl">
+					<img src="img/logo.png" class="logo"/>
+				</a>
+				<div class="dh-serach fl">
+					<!--搜索框-->
+					<div class="dh-serach-box line-36 ">
+						<input type="text" class="search-input" placeholder="UGG 香奈儿" />
+						<a class="serach-btn bg-main font-white display center text-white">搜索</a>
+					</div>
+					<!--关键词-->
+					<div class="keyword font-14 padding-5-t">
+						<a href="">香奈儿</a>
+						<i class="space"></i>
+						<a href="">奶粉</a>
+						<i class="space"></i>
+						<a href="">UGG</a>
+						<i class="space"></i>
+						<a href="">家具</a>
+					</div>
+				</div>
+			</section>
+			<!--logo和搜索end-->
+			<!--头部导航begin-->
+			<div class="dh-main-nav bg-main text-white">
+				<div class="content">
+					<!--全部商品分类-->
+					<div class="classfify-all fl static">
+						<!--全部分类文本-->
+						<div class="center bg-main-active classfify-text">
+							<span class="iconfont icon-fenlei"></span>
+							<span>全部商品分类</span>
+						</div>
+						<!--分类列表-->
+						<ul class="classify-lists">
+							<li class="bg-main clearfix">
+								母婴用品
+								<div class="fr"><span class="triangle"></span></div>
+								<!--二级分类-->
+								<div class="classify-two">
+									<div class="classify-two-lists">
+										<div class="title">营养辅食</div>
+										<div class="lists">
+											<a href="">开衫</a>
+											<i class="space"></i>
+											<a href="">开衫</a>
+											<i class="space"></i>
+											<a href="">开衫</a>
+											<i class="space"></i>
+											<a href="">开衫</a>
+											<i class="space"></i>
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li class="bg-main clearfix">
+								美容护肤
+								<div class="fr"><span class="triangle"></span></div>
+								<div class="classify-two">
+									111
+								</div>
+							</li>
+							<li class="bg-main">
+								母婴用品
+								<div class="fr"><span class="triangle"></span></div>
+							</li>
+							<li class="bg-main">
+								母婴用品
+								<div class="fr"><span class="triangle"></span></div>
+							</li>
+							<li class="bg-main">
+								母婴用品
+								<div class="fr"><span class="triangle"></span></div>
+							</li>
+							<li class="bg-main">
+								母婴用品
+								<div class="fr"><span class="triangle"></span></div>
+							</li>
+						</ul>
+					</div>
+					<!--导航列表-->
+					<ul class="fl dh-main-nav-lists">
+						<li><a>首页</a></li>
+						<li><a>积分商城</a></li>
+						<li><a>团购</a></li>
+						<li><a>秒杀</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--头部导航end-->
+		</header>
+		<!--头部end-->
+		<!--轮播begin-->
+		<section class="dh-banner content clearfix">
+			<div class="wrap fl" id="banner-box">
+				<ul class="lists" id="lists-move">
+					<li class="item active">
+						<img src="img/banner1.jpg" class="banner-img"/>
+					</li>
+					<li class="item">
+						<img src="img/banner2.jpg"/ class="banner-img">
+					</li>
+					<li class="item">
+						<img src="img/banner3.jpg"/ class="banner-img">
+					</li>
+					<li class="item">
+						<img src="img/banner4.jpg"/ class="banner-img">
+					</li>
+					<li class="item">
+						<img src="img/banner5.jpg"/ class="banner-img">
+					</li>
+				</ul>
+				<!--小按钮-->
+				<ul class="point-lists clearfix">
+					<li class="point active" data-index = "0"></li>
+					<li class="point" data-index = "1"></li>
+					<li class="point" data-index = "2"></li>
+					<li class="point" data-index = "3"></li>
+					<li class="point" data-index = "4"></li>
+				</ul>
+				<a class="btn" id="prev"><</a>
+				<a class="btn" id="next">></a>
+			</div>
+			<div class="article fr font-14">
+				<div class="title-box clearfix line-36 margin-5-lr">
+					<h2 class="bold fl">文章资讯</h2>
+					<a class="text-main fr">更多 ></a>
+				</div>
+				<div class="indent-box">
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+					<a class="indent overflow">【公告】此处是文章标题，如有超出，以三点的形式隐藏</a>
+				</div>
+			</div>
+		</section>
+		<!--轮播begin-->
+		<!--推荐商品-->
+		<section class="content tab-box">
+			<!--标题-->
+			<div class="recommend-title clearfix">
+				<ul class="recommend-title-lists clearfix fl">
+					<li class="tab-title">推荐商品</li>
+					<li class="tab-title">促销商品</li>
+					<li class="tab-title">新品推荐</li>
+				</ul>
+				<a class="fr">换一换<span class="iconfont icon-shuaxin font-14"></span></a>
+			</div>
+			<!--内容begin-->
+			<div class="tab-con-box">
+				<ul class="clearfix recommend-lists tab-con active">
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">推荐商品，商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+				</ul>
+				<ul class="clearfix recommend-lists tab-con">
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">促销商品，商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+				</ul>
+				<ul class="clearfix recommend-lists tab-con">
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">新品推荐，商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+			<!--内容end-->
+		</section>
+		<!--特价秒杀begin-->
+		<section class="content dh-special-box">
+			<!--标题-->
+			<div class="main-title-box font-24 text-main">
+				特价秒杀
+				<div class="count-down font-14 text-gray display" id="count-down">
+					<span class="padding-5-lr">本场还剩</span>
+					<span class="time">0</span>
+					<span class="time">1</span>
+					<span class="">:</span>
+					<span class="time">2</span>
+					<span class="time">3</span>
+					<span class="">:</span>
+					<span class="time">4</span>
+					<span class="time">5</span>
+				</div>
+			</div>
+			<!--内容-->
+			<div class="special-content clearfix">
+				<div class="show-more fr">
+					<div class="show-more-text text-white">
+						<p class="text-white font-22 padding-10-b">查看全部</p>
+						<p class=" font-30">限时购</p>
+						<a class="show-more-btn display line-28 text-white center font-14 margin-25-t">点击进去></a>
+					</div>
+				</div>
+				<div class="goods-lists-box fl">
+					<ul class="goods-lists clearfix">
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<div class="margin-5-bt">
+									<span class="text-main font-14 bold">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+								<div class="">
+									<div class="progress-box display margin-5-r">
+										<div class="progress"></div>
+									</div>
+									<span class="piece">剩余130件</span>
+								</div>
+								<a class="goods-btn button button-main-active margin-5-t">立即抢买</a>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+		<!--特价秒杀end-->
+		<!--F1母婴用品begin-->	
+		<section class="content dh-mom-use tab-box1">
+			<!--标题-->
+			<div class="main-title-box clearfix">
+				<div class="font-24 text-main fl">F1母婴用品</div>
+				<ul class="use-title-lists fr clearfix">
+					<li class="tab-title">童装童鞋</li>
+					<li class="tab-title">营养辅食</li>
+					<li class="tab-title">洗护用品</li>
+					<li class="tab-title">儿童用具</li>
+				</ul>
+			</div>
+			<div class="use-content clearfix tab-con active">
+				<!--左边部分-->
+				<div class="fl use-left">
+					<div class="use-left-content center">
+						<img src="img/goods.png"/>
+						<p class="font-20 text-white">鲜货先到辣妈首选童装童鞋</p>
+						<p class="font-16 text-white">新尝新价 <span class="font-20">123</span>元起</p>
+						<div class="use-select margin-25-t">
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">洗护用品</a>
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">洗护用品</a>
+							<a class="circle circle-active">营养辅食</a>
+						</div>
+					</div>
+				</div>
+				<!--中间-->
+				<div class="fl use-center">
+					<ul class="clearfix">
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<!--右边部分-->
+				<div class="use-right fl padding-5-lr">
+					<h2 class="font-16 text-gray">最新热卖</h2>
+					<ul class="goods-lists">
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="use-content clearfix tab-con">
+				<!--左边部分-->
+				<div class="fl use-left">
+					<div class="use-left-content center">
+						<img src="img/goods.png"/>
+						<p class="font-20 text-white">鲜货先到辣妈首选</p>
+						<p class="font-16 text-white">新尝新价 <span class="font-20">123</span>元起</p>
+						<div class="use-select margin-25-t">
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">洗护用品</a>
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">营养辅食</a>
+							<a class="circle circle-active">洗护用品</a>
+							<a class="circle circle-active">营养辅食</a>
+						</div>
+					</div>
+				</div>
+				<!--中间-->
+				<div class="fl use-center">
+					<ul class="clearfix">
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+						<li class="">
+							<img src="img/goods.png" class="good-img"/>
+							<div class="img-text line-16">
+								<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+								商品标题，超出两行隐藏</p>
+								<span class="text-main font-14 bold display">￥123.44</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<!--右边部分-->
+				<div class="use-right fl padding-5-lr">
+					<h2 class="font-16 text-gray">最新热卖</h2>
+					<ul class="goods-lists">
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+						<li class="clearfix">
+							<img src="img/goods.png" class="good-img mom-img fl padding-10-r"/>
+							<div class="img-text fl">
+								<p class="goods-title hidden">商品标题，超出两行隐藏商品标题</p>
+								<div class="margin-5-bt">
+									<span class="text-main">￥123.44</span>
+									<span class="text-gray line-through">￥199.00</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--F1母婴用品end-->
+		<!--猜您喜欢-->
+		<section class="content">
+			<!--标题-->
+			<div class="recommend-title clearfix margin-10-bt">
+				<a class="fr">换一换<span class="iconfont icon-shuaxin font-14"></span></a>
+				<div class="font-24 text-main fl bold line-40 main-title-box">猜您喜欢</div>
+			</div>
+			<div class="like">
+				<!--内容-->
+				<ul class="clearfix like-lists">
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+							<span class="text-gray line-through">￥199.00</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+							<span class="text-gray line-through">￥199.00</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+							<span class="text-gray line-through">￥199.00</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+							<span class="text-gray line-through">￥199.00</span>
+						</div>
+					</li>
+					<li>
+						<img src="img/goods.png" class="good-img"/>
+						<div class="img-text line-16">
+							<p class="goods-title hidden padding-5-t">商品标题，超出两行隐藏商品标题，超出两行隐藏
+							商品标题，超出两行隐藏</p>
+							<span class="text-main font-14 bold display">￥123.44</span>
+							<span class="text-gray line-through">￥199.00</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+			
+		<!--侧边栏begin-->
+		<aside class="aside">
+			<!--控件列表-->
+			<div class="aside-panel">
+				<!--控件位置-->
+				<div class="aside-bar">
+					<ul class="aside-bar-lists">
+						<li>
+							<span class="iconfont icon-shouye text-white"></span>
+							<span class="tooltip-bar">会员中心</span>
+						</li>
+						<li>
+							<a class="iconfont icon-gouwuchekong text-white"></a>
+							<a class="cart-text">购物车</a>
+							<a class="num">1</a>
+						</li>
+						<li>
+							<span class="iconfont icon-kefu text-white"></span>
+							<span class="tooltip-bar customer">客服中心</span>
+						</li>
+					</ul>
+					<!--二维码和返回顶部-->
+					<ul class="aside-bar-lists aside-bar-bottom">
+						<li>
+							<span class="iconfont icon-ai-code text-white"></span>
+							<span class="tooltip-bar iconfont icon-ai-code code"></span>
+						</li>
+						<li>
+							<span class="iconfont icon-icon3 text-white"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--滑出区域 如购物车内容 、客户内容-->
+			<div class="aside-slide">
+				
+			</div>
+		</aside>
+		<!--侧边栏end-->
+		<!--底部begin-->
+		<footer class="footer margin-20-t">
+			<div class="footer-top center content">
+				<ul class="safety-server clearfix">
+					<li>
+						<span class="fl safety-server-icon">正</span>
+						<div class="safety-server-text">
+							<h2 class="font-14">正品保障</h2>
+							<p>100%正品商城</p>
+						</div>
+					</li>
+					<li>
+						<span class="fl safety-server-icon">正</span>
+						<div class="safety-server-text">
+							<h2 class="font-14">正品保障</h2>
+							<p>100%正品商城</p>
+						</div>
+					</li>
+					<li>
+						<span class="fl safety-server-icon">正</span>
+						<div class="safety-server-text">
+							<h2 class="font-14">正品保障</h2>
+							<p>100%正品商城</p>
+						</div>
+					</li>
+					<li>
+						<span class="fl safety-server-icon">正</span>
+						<div class="safety-server-text">
+							<h2 class="font-14">正品保障</h2>
+							<p>100%正品商城</p>
+						</div>
+					</li>
+					<li>
+						<span class="fl safety-server-icon">正</span>
+						<div class="safety-server-text">
+							<h2 class="font-14">正品保障</h2>
+							<p>100%正品商城</p>
+						</div>
+					</li>
+				</ul>
+				
+				<div class="server-details">
+					<!--底部服务热线-->
+					<div class="fr contact center text-black font-14 padding-10-t">
+						<p class="font-24">400-829-8366</p>
+						<p class="margin-10-bt">周一至周日 8:00-18:00</p>
+						<p>全国统一服务热线</p>
+					</div>
+					<!--详情-->
+					<ul class="server-details-lists clearfix font-12">
+						<li>
+							<h2 class="font-14 margin-5-b">购物指南</h2>
+							<p>购物流程</p>
+							<p>发票制度</p>
+							<p>账户管理</p>
+						</li>
+						<li>
+							<h2 class="font-14 margin-5-b">购物指南</h2>
+							<p>购物流程</p>
+							<p>发票制度</p>
+							<p>账户管理</p>
+						</li>
+						<li>
+							<h2 class="font-14 margin-5-b">购物指南</h2>
+							<p>购物流程</p>
+							<p>发票制度</p>
+							<p>账户管理</p>
+						</li>
+						<li>
+							<h2 class="font-14 margin-5-b">购物指南</h2>
+							<p>购物流程</p>
+							<p>发票制度</p>
+							<p>账户管理</p>
+						</li>
+						<li>
+							<h2 class="font-14 margin-5-b">购物指南</h2>
+							<p>购物流程</p>
+							<p>发票制度</p>
+							<p>账户管理</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="content">
+					<img src="img/footone.png"/>
+					<img src="img/footone.png"/>
+					<span class="text-white padding-10-l font-14">版权所有： 西安国际陆港电子商贸有限公司   &nbsp;&nbsp;&nbsp;陕ICP备:15013404号 </span>
+				</div>
+			</div>
+		</footer>
+		<!--底部end-->
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/common.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/banner.js" ></script>

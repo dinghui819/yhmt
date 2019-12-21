@@ -1,0 +1,193 @@
+/*公共模块的封装*/
+/*间隔线  上一页  下一页  轮播
+ * 
+ * */
+/*间隔线*/
+.space:after{
+	content: "|";
+	display: inline-block;
+	font-size: 13px;
+	padding: 0 6px;
+	color:#a4a4a4 ;
+}
+.button{
+	display: inline-block;
+	background: #fff;
+	border-radius: 5px;
+	border:1px solid #e2e2e2;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.button .button-main, .button-main-active:hover{
+	background: #ff2d52;
+	color: #fff;
+	border-color:#ff2d52;
+}
+.circle{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height:60px;
+	border-radius: 50%;
+	background: #fff;
+	margin-top: 5px;
+}
+.circle-active:hover{
+	background: #ffe9ed;
+	color: #FF2D52;
+}
+.triangle{
+	display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #fff;
+}
+/*积分商城里面的小标题*/
+.coupons-title{
+	font-size: 22px;
+	font-weight: bold;
+	width: 150px;
+	padding: 16px;
+	border-bottom: 2px solid #FF2D52;
+}
+/*左半圆*/
+.semicircle{
+	width: 20px;
+	height: 40px;
+	background: #fff;
+	border:1px solid #E2E2E2;
+	border-right:none ;
+	border-radius: 20px 0px 0px 20px;
+	position: absolute;
+    right: -1px;
+    top: 97px;
+}
+/*右半圆*/
+.semicircle-right{
+	width: 20px;
+	height: 40px;
+	background: #fff;
+	border:1px solid #E2E2E2;
+	border-right:none ;
+	border-radius: 20px 0px 0px 20px;
+	position: absolute;
+    left: -1px;
+    top: 97px;
+	transform: rotate(180deg);
+}
+/*积分商城里面的按钮*/
+.coupons-button{
+	display: inline-block;
+	width: 143px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	background: #ff92a5;
+	border-radius: 30px;
+}
+.con-button{
+	display: inline-block;
+	width: 149px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background: #FF2D52;
+	color: #fff;
+	border-radius: 6px;
+	margin: 10px 0;
+}
+/*上一页  下一页*/
+.page-box .prevBtn,.page-box .nextBtn,.page-box .page{
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.page-box .prevBtn,.page-box .nextBtn{
+	width: 65px;
+}
+.page-box .page{
+	width: 40px;
+}
+
+.page.active, .page-box .page:hover{
+	border-color: #FF2D52;
+	background: #FF2D52;
+	color: #fff;
+}
+/*轮播*/
+.dh-banner .wrap{
+	position:relative ;
+	width: 700px;
+	height: 306px;
+	margin-left: 200px;
+	/*border: 1px solid red;*/
+}
+.dh-banner .lists{
+	width: 700px;
+	height: 306px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.dh-banner .item{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 2s;
+}
+/*设置显示哪一张*/
+.dh-banner .item.active{
+	z-index: 10;
+	opacity: 1;
+}
+.dh-banner .item .banner-img{
+	width: 700px;
+	height: 306px;
+}
+/*圆点*/
+.point-lists{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	z-index: 15;
+}
+.point{
+	width: 12px;
+	height: 12px;
+	border: 1px solid #E2E2E2;
+	border-radius: 50%;
+	float: left;
+	background: rgb(0,0,0,0.4);
+	margin-right: 14px;
+}
+.point.active{
+	background: rgb(255,255,255,0.8);
+}
+/*左右按钮*/
+.dh-banner .btn{
+	display: inline-block;
+	width: 24px;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	background: #666666;
+	opacity: .4;
+	border: 1px solid #E2E2E2;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+    z-index: 11;
+}
+.dh-banner #prev{
+	left: -1;
+}
+.dh-banner #next{
+	right: -1px;
+}

@@ -1,0 +1,116 @@
+/*个人信息*/
+.user-info{
+	padding: 20px;
+	width: 272px;
+	height: 324px;
+	background: bisque;
+}
+.user-top{
+	border-bottom: 1px solid #E2E2E2;
+}
+.head-box{
+	width: 110px;
+    text-align: center;
+}
+.user-data{
+	margin-left: 110px;
+}
+.user-progress{
+	position: relative;
+	width: 124px;
+	height: 14px;
+	background: #eeeeee;
+}
+.user-progress>.progress{
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	left: 0;
+	top: 0;
+	background: #FF2D52;
+}
+.user-data .sign{
+	width: 59px;
+	height: 26px;
+	line-height: 26px;
+}
+/*我的积分*/
+.score-box{
+	margin: 20px 0;
+}
+.score{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #ffe0e5;
+	text-align: center;
+}
+.score-text{
+	margin-left: 40px;
+	line-height: 20px;
+}
+/*优惠券兑换样式begin*/
+.dh-coupons-box .coupons-lists,.dh-limit-box .limit-lists{
+	border: 1px solid #e2e2e2;
+	padding: 20px;
+}
+.dh-coupons-box .coupons-lists >li, .dh-limit-box .limit-lists>li{
+	float: left;
+	padding: 5px 5px 5px 0;
+}
+.dh-coupons-box .coupons-lists >li{
+	width: 25%;
+}
+.dh-coupons-box .coupons-text{
+	position: relative;
+	padding: 20px;
+	border:1px solid #E2E2E2;
+}
+.dh-coupons-box .money-box{
+	border-bottom: 1px dashed #e2e2e2;
+}
+.dh-coupons-box .money{
+	text-align: center;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+}
+.dh-coupons-box .money-describe{
+	margin: 18px 0;
+}
+.dh-coupons-box .coupons-button-box{
+	margin: 30px 0;
+	text-align: center;
+	width: 100%;
+}
+/*优惠券兑换样式end*/
+/*限时兑换样式begin*/
+.dh-limit-box .limit-lists >li{
+	width: 20%;
+}
+.limit-lists-box{
+	position: relative;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	width: 100%;
+}
+.limit-lists-box:hover::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 2px solid #FF2D52;
+	position: absolute;
+	left: -2px;
+	top: -2px;
+}
+.limit-lists-box>img{
+	width: 100%;
+	height: 214px;
+}
+.limit-lists-box >.text{
+	width: 100%;
+	height: 42px;
+	padding: 0 20px;
+	line-height: 42px;
+}

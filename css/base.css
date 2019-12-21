@@ -1,0 +1,134 @@
+/*主要写头部、底部、侧边栏的样式*/
+.dh-top{
+	border-bottom: 1px solid #ddd;
+}
+/*logo样式begin*/
+.dh-nav .dh-nav-logo .logo{
+	width: 200px;
+	height: 70px;
+}
+/*搜索框*/
+/*行内元素会有3像素的差距，这时可以设置他的父级字体font-size:0*/
+.dh-serach{
+	padding-left: 190px;
+}
+.dh-serach-box{
+	border: 2px solid #FF2D52;
+}
+.dh-serach-box .search-input{
+	width: 430px;
+	height: 34px;
+	border: 0;
+	padding-left: 30px;
+	background: url(../img/icon-search.png) no-repeat 10px 10px;/*距离左边有10像素 上下居中*/	
+}
+/*搜索按钮*/
+.dh-serach-box .serach-btn{
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+}
+/*头部导航开始*/
+.dh-main-nav{
+	height: 40px;
+	line-height: 40px;
+}
+.classfify-all{
+	width: 200px;
+	position: relative;
+}
+.classfify-text{
+	background: #FF2D52;
+	line-height: 37px;
+}
+.classfify-all:hover .classfify-text, .classfify-all.static .classfify-text{
+	background: #EC193E;
+	cursor: pointer;
+}
+.classfify-all .icon-fenlei{
+	vertical-align: 1px;
+	padding-right: 0;
+	font-size: 18px;
+}
+.classify-lists{
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 13;
+}
+/*当.classfify-all有static这个类名时，就让.classify-lists一直显示出来*/
+/*.classfify-all.static .classify-lists{
+	display: block;
+}*/
+/*鼠标移入必须有上下级关系*/
+.classfify-all:hover .classify-lists,.classfify-all.static .classify-lists{
+	display: block;
+	cursor: pointer;
+}
+.classify-lists li{
+	background: #FF2D52;
+	height: 51px;
+	line-height: 50px;
+	border-bottom: 1px solid #EC193E;
+	padding: 0 20px 0 30px;
+}
+.classify-lists li:hover{
+	background: #EC193E;
+	cursor: pointer;
+}
+/*.triangle-box{
+	padding-top: 5px;
+}*/
+.classify-lists li:hover .triangle{
+	display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-top: 8px solid #fff;
+    /*border-bottom: 8px solid #fff;*/
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+/*二级分类*/
+.classify-two{
+	display: none;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	width: 722px;
+	height: 306px;
+	border: 1px solid #ff7011;
+	color: #333333;
+	padding: 10px;
+}
+.classify-two-lists{
+	width: 50%;
+	padding: 0 20px;
+	/*background: red;*/
+}
+.classify-two-lists .title{
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.classify-two-lists .lists{
+	line-height: 24px;
+}
+.classify-two-lists .lists a:hover{
+	color: #FF2D52;
+	cursor: pointer;
+}
+.classify-lists li:hover .classify-two{
+	display: block;
+}
+.dh-main-nav-lists li{
+	float: left;
+	padding: 0 20px;
+}
+.dh-main-nav-lists li a{
+	color: #fff;
+}
+.dh-main-nav-lists li:hover{
+	background: #EC193E;
+	cursor: pointer;
+}
+

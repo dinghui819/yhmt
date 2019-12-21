@@ -1,0 +1,101 @@
+.group-title{
+	display: flex;
+	justify-content: space-between;
+}
+.group-title>a{
+	flex: 1;
+}
+.group-title>a:hover{
+	color: #FF2D52;
+}
+.dh-group{
+	/*appearance: button;*/
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	background: #ededed;
+}
+.dh-group .group-lists{
+	padding: 5px 0;
+}
+.dh-group .group-lists > li{
+	float: left;
+	padding: 4px 20px;
+	border-right: 1px solid #E2E2E2;
+}
+.dh-group .group-lists > li:hover{
+	cursor: pointer;
+	color: #FF2D52;
+}
+.dh-group .group-lists > li:first-child{
+	padding-left: 0;
+}
+.dh-group .iconfont{
+	font-size: 12px;
+}
+.dh-group .iconfont:hover{
+	color: #FF2D52;
+}
+.dh-group .icon-xiaoliang:before{
+	content: "\e65f";
+    font-size: 12px !important;
+    color: #afaeae;
+}
+.dh-group .icon-xiaoliang:hover:before{
+	color: #FF2D52;
+}
+/*商品列表部分*/
+.dh-group-lists > li{
+	width: 20%;
+	padding: 5px;
+	float: left;
+}
+.dh-group-lists .lists-content{
+	padding: 10px;
+	width: 100%;
+	line-height: 20px;
+	border: 2px solid #E2E2E2;
+	position: relative;
+}
+.dh-group-lists :hover .lists-content{
+	border-color: #FF2D52;
+}
+.dh-group-lists .lists-content >img{
+	width: 100%;
+	height: 214px;
+}
+.dh-group-lists .group-progress{
+	position: relative;
+	margin-right: 10px;
+	width: 80px;
+	height: 10px;
+	border: 1px solid #FF2D52;
+	border-radius: 20px;
+	margin: 5px 5px 0 0;
+}
+.dh-group-lists .progress{
+	position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #ff2d52;
+}
+.price-box{
+	margin-top: 10px;
+}
+.dh-group-lists > li .btn{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #FF2D52;
+	position: absolute;
+	bottom: -2px;
+	right: 0;
+	text-align: center;
+	color: #fff;
+	display: none;
+	font-size: 18px;
+	appearance: button;
+}
+.dh-group-lists > li:hover .btn{
+	display: block;
+}
